@@ -105,19 +105,6 @@ class Deque:
             else:
                 print(i)
 
-D = Deque(10)
-D.remove_last()
-D.add_last(50)
-D.add_first(2)
-D.remove_last()
-D.printdeque()
-D.add_first(10)
-D.add_first(100)
-D.add_last(1)
-D.remove_last()
-D.remove_first()
-D.length()
-D.printdeque()
 
 
 
