@@ -1,6 +1,3 @@
-from self import self
-
-
 class Queue:
     def __init__(self, n):
         self.data = [None] * n
@@ -37,10 +34,14 @@ class Queue:
     def isEmpty(self):
         return self.len == 0
 
-test = Queue(10)
-test.Enqueue(1)
-test.Enqueue(2)
-print(test.Dequeue())
-print(test.First())
-print(test.Length())
-print(test.isEmpty())
+    def printQueue(self):
+        index = 0
+        while index != self.len:
+            if self.data[index] == None:
+                break
+            else:
+                print(self.data[index])
+                index += 1
+                
+ 
+        
