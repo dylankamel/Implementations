@@ -75,15 +75,5 @@ class DoubleLinkedList:
 
 
 myList = DoubleLinkedList()
-myList.insert(0,Node(5))
-myList.insert(1,Node(10))
-myList.insert(1,Node(50))
-myList.insert(2,Node(3))
-
-#myList.remove(0)
-
-
-
-myList.printitems()
 
 
