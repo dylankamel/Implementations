@@ -102,5 +102,5 @@ BT.addNode(B,D)
 BT.addNode(B,E)
 BT.addNode(C,F)
 BT.addNode(C,G)
-BT.printPostOrder(A)
+
 
