@@ -76,25 +76,4 @@ class Hashtable:
     def printhashtable(self):
         print(self.table)
 
-HT = Hashtable(7)
-HT.setItem('A',100)
-HT.setItem('B',200)
-HT.setItem('C',300)
-HT.setItem('D',400)
-HT.setItem('E',500)
-HT.setItem('F',600)
-HT.setItem('G',700)
-HT.setItem('H',800)
-HT.setItem('I',900)
-HT.setItem('J',1000)
-HT.setItem('K',1100)
-HT.setItem('L',1200)
-HT.setItem('M',1300)
-HT.setItem('N',1400)
-HT.setItem('O',1500)
-print(HT.getItem('A'))
-print(HT.getItem('B'))
-print(HT.getItem('C'))
-HT.printhashtable()
-
-
+HT = Hashtable()
