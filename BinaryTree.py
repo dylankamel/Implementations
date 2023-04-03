@@ -66,7 +66,14 @@ class BinaryTree:
             x = self.height(node.left)
             y = self.height(node.right)
             return max(x+1,y+1)
-
+        
+    def sumOfNodesByLevel(self, level, node):
+        if level == 0:
+            return node.value
+        elif node == None:
+            return 0
+        else:
+            return self.sumOfNodesByLevel(level - 1, node.left) + self.sumOfNodesByLevel(level - 1, node.right)
     
     def printInOrder(self,node):
         if node != None:
